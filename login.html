@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="image/favicon.png">
+    <title>Log in Shopify</title>
+  </head>
+  <body>
+    <div class="logotip">
+      <img class="logotip-slika" src="image/shopify1.svg" alt="Shopify logo">
+    </div>
+
+    <main>
+      <form class="kartica" onsubmit="return false;">
+        <h1>Log in</h1>
+        <p class="podnaslov">Continue to Shopify</p>
+
+        <label for="eposta">Email</label>
+        <input id="eposta" name="email" type="email" placeholder="Email address" autocomplete="username" required>
+
+        <button class="gumb gumb-glavni" type="submit">Continue with email</button>
+
+        <div class="locilo">
+          <div class="crta"></div>
+            <span>or</span>
+          <div class="crta"></div>
+        </div>
+
+        <button class="gumb gumb-mehki" type="button">
+          <span class="znacka">Last used</span>
+          <img src="image/passkey.webp" alt="">
+          Sign in with passkey
+        </button>
+
+        <div class="omrezja">
+          <button type="button" aria-label="Continue with Google">
+            <img src="image/google.png" alt="">
+          </button>
+          <button type="button" aria-label="Continue with Apple">
+            <img src="image/apple.png" alt="">
+          </button>
+          <button type="button" aria-label="Continue with Facebook">
+            <img src="image/facebook.svg.webp" alt="">
+          </button>
+          <button type="button" aria-label="Continue with WhatsApp">
+            <img src="image/whtasapp.png" alt="">
+          </button>
+        </div>
+
+        <p class="noga-povezava">New to Shopify? <a href="signup.html">Get started &rarr;</a></p>
+      </form>
+    </main>
+
+    <footer class="noga">
+      <p class="noga-pomoc"><a href="https://help.shopify.com/en/manual/your-account/logging-in#desktop" target="_blank">Need help?</a></p>
+      <p class="noga-besedilo">
+        By continuing, you agree to the <a href="https://www.shopify.com/si/legal/terms" target="_blank">Terms</a> and <a href="https://www.shopify.com/si/legal/privacy" target="_blank">Privacy Policy</a>, and to receive marketing emails from Shopify. Unsubscribe anytime.
+      </p>
+    </footer>
+  </body>
+</html>
