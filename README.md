@@ -6,7 +6,7 @@ Projekt predstavlja izdelavo prijavne in registracijske spletne strani, ki je po
 ## Funkcionalnosti
 
 * Prikaz logotipa Shopify.
-* Prijavna stran (`login.html`) z vnosom e-pošte.
+* Prijavna stran (`index.html`) z vnosom e-pošte.
 * Registracijska stran (`signup.html`) z naslovom »Start your free trial«.
 * Gumb »Continue with email«.
 * Preverjanje obveznega polja z uporabo `required`.
@@ -16,17 +16,11 @@ Projekt predstavlja izdelavo prijavne in registracijske spletne strani, ki je po
 * Povezavi med prijavno in registracijsko stranjo.
 * Povezave do pomoči, pogojev uporabe in pravilnika o zasebnosti v nogi strani.
 * Prilagoditev na različne velikosti zaslona (`viewport`).
-* Podčrtanje povezav ob prehodu miške.
-
-## Uporabljene tehnologije
-
-* **HTML5** – struktura spletnih strani in obrazca.
-* **CSS3** – oblikovanje, barve, velikosti in postavitev elementov (Flexbox, Grid, CSS spremenljivke, radialni gradient v ozadju).
 
 ## Struktura projekta
 
 ```
-├── login.html      – prijavna stran
+├── index.html      – prijavna stran
 ├── signup.html     – registracijska stran
 ├── style.css       – slogi prijavne strani
 ├── style1.css      – slogi registracijske strani
@@ -37,7 +31,7 @@ Projekt predstavlja izdelavo prijavne in registracijske spletne strani, ki je po
 
 1. Prenesemo projekt.
 2. Odpremo mapo, v kateri so datoteke.
-3. Datoteko `login.html` ali `signup.html` odpremo v spletnem brskalniku.
+3. Datoteko `index.html` ali `signup.html` odpremo v spletnem brskalniku.
 
 ## Opomba
 Spletna stran je namenjena šolski nalogi. Obrazec omogoča osnovno preverjanje vnesenih podatkov z uporabo HTML-ja, vendar ne ustvarja dejanskih uporabniških računov in ničesar ne pošilja na strežnik. Gumbi za prijavo z drugimi storitvami (Google, Apple, Facebook, WhatsApp, passkey) so namenjeni zgolj prikazu in ne omogočajo dejanske prijave.
