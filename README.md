@@ -27,12 +27,6 @@ Projekt predstavlja izdelavo prijavne in registracijske spletne strani, ki je po
 └── image/          – logotip, ikone in favicon
 ```
 
-## Zagon projekta
-
-1. Prenesemo projekt.
-2. Odpremo mapo, v kateri so datoteke.
-3. Datoteko `index.html` ali `signup.html` odpremo v spletnem brskalniku.
-
 ## Opomba
 Spletna stran je namenjena šolski nalogi. Obrazec omogoča osnovno preverjanje vnesenih podatkov z uporabo HTML-ja, vendar ne ustvarja dejanskih uporabniških računov in ničesar ne pošilja na strežnik. Gumbi za prijavo z drugimi storitvami (Google, Apple, Facebook, WhatsApp, passkey) so namenjeni zgolj prikazu in ne omogočajo dejanske prijave.
 
