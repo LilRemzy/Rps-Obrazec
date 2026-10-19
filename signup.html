@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="icon" type="image/x-icon" href="image/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.25/dist/sweetalert2.min.css" rel="stylesheet">
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.26.25/dist/sweetalert2.all.min.js">
+  </script>
+  <script src="script/singupjs.js" defer></script>
+  <title>Start your free trial</title>
+</head>
+<body>
+  <div class="logotip">
+    <img class="logotip-slika" src="image/shopify1.svg" alt="Shopify logo">
+  </div>
+
+  <main>
+    <div class="vsebina">
+      <h1>Start your free trial</h1>
+      <p class="podnaslov">3 days free, then 3 months for &euro;1/month</p>
+
+      <form class="kartica" id="signupForm">
+        <label for="eposta" class="skrito">Email address</label>
+        <input
+          id="eposta"
+          name="email"
+          type="email"
+          placeholder="Email address"
+          autocomplete="email"
+          required
+        >
+
+        <button class="gumb gumb-glavni" type="submit">
+          Continue with email
+        </button>
+
+        <div class="locilo">
+          <div class="crta"></div>
+          <span>or</span>
+          <div class="crta"></div>
+        </div>
+
+        <div class="omrezja">
+          <button type="button" aria-label="Continue with Google" data-provider="Google">
+            <img src="image/google.png" alt="">
+          </button>
+
+          <button type="button" aria-label="Continue with Apple" data-provider="Apple">
+            <img src="image/apple.png" alt="">
+          </button>
+
+          <button type="button" aria-label="Continue with WhatsApp" data-provider="WhatsApp">
+            <img src="image/whtasapp.png" alt="">
+          </button>
+        </div>
+
+        <p class="noga-povezava">
+          Already have a Shopify account?
+          <a href="index.html">Log in</a>
+        </p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="noga">
+    <p class="noga-pomoc">
+      <a
+        href="https://help.shopify.com/en/manual/your-account/logging-in#desktop"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Need help?</a>
+    </p>
+
+    <p class="noga-besedilo">
+      By continuing, you agree to the
+      <a href="https://www.shopify.com/si/legal/terms" target="_blank" rel="noopener noreferrer">Terms</a>
+      and
+      <a href="https://www.shopify.com/si/legal/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+      Unsubscribe anytime.
+    </p>
+  </footer>
+</body>
+</html>
